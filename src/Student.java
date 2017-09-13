@@ -1,8 +1,10 @@
 import java.util.Date;
 
 /**
- * Class that stores information about the concrete student
- * 
+ * Public class Comparable
+ * {
+	System.out.println"the student details are");
+	
  * DO NOT REMOVE given methods, but you can add new methods/fields/constructor
  * and change the given methods implementation. For example you can change implementation for equals()
  * or hashCode() method
@@ -10,26 +12,53 @@ import java.util.Date;
  */
 public class Student implements Comparable {
 
-	/**
-	 * student id
-	 */
+	
+	 
+
+
+	 
 	private int id;
+	student s= new stduent();	
+	int add(int id)
+	void add(501);
+	setid();
+	System.out.println("+the student id is+" +id");
+	getid();
+
+	
+	
+
 
 	/**
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
 	private String fullName;
-
+	string add(string name);
+	setname();
+	system.out.println("+the student full name is+");
+	
+	string name("Bunny Reddy")
+	getname();
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
 	 */
 	private Date birthDate;
+	static int(int year int month int date)
+	setyear();
+	setmonth();
+	setdate();
+	System.out.println(" "year" +year+ "month" +month+ "date" +date+")
 
 	/**
 	 * student average mark
 	 */
-	private double avgMark;
+	private double avgMark
+	{
+		double m1,m2;
+		avg(m1,m2);
+		return avg;
+		getavg();
 
 	public Student(int id, String fullName, Date birthDate, double avgMark) {
 		this.id = id;
